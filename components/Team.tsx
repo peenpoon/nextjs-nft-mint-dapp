@@ -7,7 +7,7 @@ export default function Team() {
     <div className="text-center">
       <h2 className="text-2xl text-gray-100 mb-4">Multimedia Ops + Installation Ops</h2>
       <Image
-        src={creator.gif}
+        src={Creator}
         alt="peenpoon"
         width={200}
         height={200}
@@ -25,7 +25,7 @@ export default function Team() {
 
       </p><h2 className="text-2xl text-gray-100 mb-4">Social Operations + DAO Strategy</h2>
       <Image
-        src={creator.gif}
+        src={Creator}
         alt="lomedia.eth"
         width={200}
         height={200}
@@ -43,7 +43,7 @@ export default function Team() {
 
         </p><h2 className="text-2xl text-gray-100 mb-4">Event Operations + Frontend Dev</h2>
       <Image
-        src={creator.gif}
+        src={Creator}
         alt="koikai.eth"
         width={200}
         height={200}
