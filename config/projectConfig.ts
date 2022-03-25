@@ -1,50 +1,50 @@
 const projectConfig = {
-  nftName: 'SkullsInLove',
+  nftName: 'Vessels',
 
-  nftSymbol: 'SIL',
+  nftSymbol: 'Vessels',
 
-  maxSupply: 10000,
+  maxSupply: 433,
 
-  maxMintAmountPerTxn: 10,
+  maxMintAmountPerTxn: 20,
 
-  mintCost: process.env.NODE_ENV === 'production' ? 100 : 0.01,
+  mintCost: process.env.NODE_ENV === 'production' ? 100 : 0.10,
 
   networkName:
     process.env.NODE_ENV === 'production'
-      ? 'Polygon Mainnet' // 'Ethereum Mainnet'
-      : 'Mumbai Testnet', // 'Rinkeby Testnet'
+      ? 'Ethereum Mainnet' // ''
+      : 'Rinkeby Testnet', // ''
 
   chainName: 'MATIC', // 'ETH'
 
-  chainId: process.env.NODE_ENV === 'production' ? 137 : 80001, // Ethereum (1), Rinkeby (4)
+  chainId: process.env.NODE_ENV === 'production' ? 4 : 80001, // Ethereum (1), Rinkeby (4)
 
-  siteDomain: 'www.yourdomain.com',
+  siteDomain: 'www.thev01d.is',
 
   siteUrl:
     process.env.NODE_ENV === 'production'
-      ? `https://your_site_domain`
+      ? `https://www.thev01d.is`
       : 'http://localhost:3000',
 
-  twitterUsername: '@your_twitter_handle',
+  twitterUsername: '@peepoontweets',
 
-  twitterUrl: 'https://twitter.com/your_twitter_handle',
+  twitterUrl: 'https://twitter.com/peenpoontweets',
 
-  discordUrl: 'https://discord.gg/your_discord_invite_code',
+  discordUrl: 'https://discord.gg/xy4X5vyy',
 
   openseaCollectionUrl:
     process.env.NODE_ENV === 'production'
       ? 'https://opensea.io/collection/your_opensea_collection_name'
-      : 'https://testnets.opensea.io/collection/your_opensea_collection_name',
+      : 'https://testnets.opensea.io/collection/vessels',
 
   contractAddress:
     process.env.NODE_ENV === 'production'
       ? 'your_mainnet_contract_address'
-      : 'your_testnet_contract_address',
+      : '0x665f989dab3a0E55C8162DEb589E45a03BD874cF ',
 
   scanUrl:
     process.env.NODE_ENV === 'production'
       ? 'https://polygonscan.com/address/your_polygon_contract_address'
-      : 'https://mumbai.polygonscan.com/address/your_mumbai_contract_address',
+      : 'https://rinkeby.etherscan.io/address/0x7a0f2633e6cd3c1aa3ba199ad21b6e6028b5cd75',
   // 'https://etherscan.io/address/your_ethereum_contract_address'
   // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'
 };
