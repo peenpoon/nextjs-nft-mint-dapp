@@ -20,40 +20,30 @@ const Home: NextPage = () => {
 
       <Image src={topImage} alt={projectConfig.nftName} />
 
-      <div className="bg-gray-800 py-8">
+      <div className="bg-black-800 container mx-auto">
         <Prose>
           <h1 className="text-5xl font-bold mb-2">{projectConfig.nftName}</h1>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            VESSELS are the first project from the V01D.
+            Vessel holders receive access to V01D IRL events, including our launch party at NFT.NYC 2022.
+            Check out our roadmap for more info.
           </p>
         </Prose>
       </div>
 
-      <div className="py-8">
+      <div className="container mx-auto">
         <Prose>
-          <Minting />
+          <Minting your vessel />
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
-        <Prose>
-          <Faq />
-        </Prose>
-      </div>
-
-      <div className="py-8">
+      <div className="container mx-auto">
         <Prose>
           <Roadmap />
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
+      <div className="bg-black container mx-auto">
         <Prose>
           <Team />
         </Prose>
