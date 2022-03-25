@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 
       <div className="container mx-auto">
         <Prose>
-          <Minting your vessel />
+          <Minting/>
         </Prose>
       </div>
 
