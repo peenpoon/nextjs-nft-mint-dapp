@@ -14,7 +14,7 @@ const projectConfig = {
       ? 'Ethereum Mainnet' // ''
       : 'Rinkeby Testnet', // ''
 
-  chainName: 'MATIC', // 'ETH'
+  chainName: 'ETH', // 'ETH'
 
   chainId: process.env.NODE_ENV === 'production' ? 4 : 80001, // Ethereum (1), Rinkeby (4)
 
